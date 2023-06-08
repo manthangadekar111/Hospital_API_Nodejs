@@ -4,7 +4,7 @@
 
 const Doctor = require('../models/doctors');
 const Patient = require('../models/patients');
-const jwt = require('jsonwentoken');
+const jwt = require('jsonwebtoken');
 
 module.exports.registerDoctor = async (req, res, next) => {
     try {
